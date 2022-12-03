@@ -14,7 +14,7 @@ In progress:
 ## The ideal solution
 Container-based cloud fabric for extreme flexibility. Remove a node when pc is needed for something else, or add nodes continuosly.
 
-[flex_cloud](flex_cloud.png)
+![flex_cloud](flex_cloud.png)
 
 
 ### Requirements
