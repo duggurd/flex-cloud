@@ -16,6 +16,7 @@ Container-based cloud fabric for extreme flexibility. Remove a node when pc is n
 
 ![flex_cloud](flex_cloud.png)
 
+Deploying VMs or ideally containers on the cloud fabric.
 
 ### Requirements
 - Storage
@@ -41,12 +42,30 @@ Easy management through web-interface.
 
 Hosts as smallest level of grain, running guest VMs.
 
+
+[Cloudstack CaaS](https://www.shapeblue.com/cloudstack-container-service/)
+
 ## SealOS
 [SealOS](https://github.com/labring/sealos)
 
+OS based on kubernetes. "..only be cloud OS drivers, cloud OS kernel and distributed applications." 
+
+OCI compatible distributed applications (PostgreSQL, MySQL, Redis, etc.).
+
+use Dockerfiles to build distributed applications images(!).
 
 ## Partial solutions
 Building the cloud from individual services. Instead of building services on top of a singular cloud fabric, hosting individual cluster/distributed services across machines.
+
+
+
+### Different software fulfilling individual needs
+Using distributed software/clustering software for all the different needs. Meaning no same level abstarction across all machines.
+
+### OHPC
+[GitHub](https://github.com/openhpc/ohpc)
+
+### Kubernetes
 
 ## DIY
 If all else fails I am committed to trying to build a semi functional cloud fabric service from scratch. Most likely in Rust. 
