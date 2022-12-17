@@ -42,7 +42,7 @@ Container-based cloud fabric for highest flexibility. Freely add and remove node
 Deploying VMs or ideally containers on top of cloud fabric.
 
 
-# Complete solutions
+# Complete open source cloud solutions
 Existing complete solutions. Private cloud software. Full functionality out of the box.
 
 
@@ -92,6 +92,25 @@ Also seems like a great fit for project.
 All the different components could prove troublesome in terms of confoguration and setup, rabbit hole and loads of places for misconfiguration.¨
 
 
+
+## Eucalyptus Cloud
+[website](https://www.eucalyptus.cloud/) | [GitHub](https://github.com/Corymbia/eucalyptus)
+
+Lorem ipsum dolor sit amet
+
+## AppScale
+[Website](https://www.appscale.com/) | [GitHub](https://github.com/AppScale)
+
+Lorem ipsum dolor sit amet
+
+
+# Partial solutions
+Building the platform from different services fulfilling individual needs. For example setting up a distributed service for database, another for server management and another for distributed compute on each machine.
+
+A domain I have little familiarity with. Maybe clustering though Kubernetes will work as well.
+
+
+
 ## Apache Mesos
 [Website](https://mesos.apache.org/) | [GitHub](https://github.com/apache/mesos)
 
@@ -106,16 +125,6 @@ All the different components could prove troublesome in terms of confoguration a
 Solves problems of running multiple cluster computing frameworks on the same machine/in the same cluster.
 
 
-## Eucalyptus Cloud
-[website](https://www.eucalyptus.cloud/) | [GitHub](https://github.com/Corymbia/eucalyptus)
-
-Lorem ipsum dolor sit amet
-
-## AppScale
-[Website](https://www.appscale.com/) | [GitHub](https://github.com/AppScale)
-
-Lorem ipsum dolor sit amet
-
 ## SealOS
 [SealOS](https://github.com/labring/sealos)
 
@@ -124,11 +133,6 @@ OS based on kubernetes. "..only be cloud OS drivers, cloud OS kernel and distrib
 OCI compatible distributed applications (PostgreSQL, MySQL, Redis, etc.).
 
 use Dockerfiles to build distributed applications images.
-
-# Partial solutions
-Building the platform from different services fulfilling individual needs. For example setting up a distributed service for database, another for server management and another for distributed compute on each machine.
-
-A domain I have little familiarity with. Maybe clustering though Kubernetes will work as well.
 
 
 ## OHPC
@@ -148,7 +152,7 @@ Lorem ipsum dolor sit amet
 Lorem ipsum dolor sit amet
 
 
-### Apache spark
+## Apache spark
 Lorem ipsum dolor sit amet
 
 
